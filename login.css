@@ -1,0 +1,61 @@
+body{
+    background: url(image_youssef/red_ferrari_laferrari_car_4k_5k_hd_cars-HD.jpg);
+    background-size: cover;
+    font-family: sans-serif;   
+}
+.login{
+    width: 450px;
+    height: 550px;
+    padding: 0px 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+background: rgba(0, 0, 0,0.6);
+}
+.login img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 115px;
+    border-radius: 60px;
+}
+.login h1{
+    margin: 0;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+}
+.login label{
+
+    color: #fff;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin: 10px 0px;
+}
+.login input[type="text"],
+.login input[type="password"]{
+
+    border: none;
+    outline: none;
+    height: 30px;
+}
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #ef1105;
+font-size: 30px;
+border-radius: 20px;
+margin-bottom: 27px;
+
+
+} 
+ 
+
+    

@@ -1,0 +1,226 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 40px;
+    /* height: 40px; */
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: -5px;
+    padding-left: 10px;
+    font-family: serif;
+}
+
+/* nav {
+    background-color: #6d6d6d;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #fff651;
+    transition: 0.6s ease-in-out;
+} */
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    padding-left: 25px;
+    z-index: 10;
+}
+
+header nav {
+    display: flex;
+    /* align-content; */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    background-color: #636161;
+    background-position: center;
+    color: yellow;
+    transition: 0.6s ease-out;
+}
+
+/* ---------------------------------- */
+.hero {
+    position: relative;
+    height: 100vh;
+}
+
+.hero-content {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* color: #ffce3d; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    z-index: 2;
+}
+
+.hero video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heroh1 {
+    font-size: 50px;
+    color: #fdea40;
+}
+
+.herop {
+    margin: -30px;
+    padding-left: 150px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* ------------------------------- */
+.catagories {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    font-weight: bold;
+    color: #fdea40;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    /* Display rows vertically */
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    /* Spread columns evenly */
+    width: 100%;
+    /* Make row full width */
+    margin-bottom: 20px;
+    /* Add space between rows */
+}
+
+.column {
+    width: calc(50% - 20px);
+    /* Two columns with spacing */
+    text-align: center;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.column img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.column h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Racing Sans One', sans-serif;
+    color: white;
+}
+
+
+.column a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.column a:hover {
+    opacity: 0.8;
+}
+
+
+/* -------------------------------------------------- */
+footer {
+    background-color: #000000;
+    color: #fff;
+    /* text-align: left; */
+    align-items: center;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+footer p {
+    /* margin-top: 10px; */
+    text-align: left bottom;
+    font-family: 'Racing Sans One', sans-serif;
+
+}
+
+.social-icons {
+    margin-top: -20px;
+    text-align: right;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    align-content: right;
+    color: white;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 20px;
+}
